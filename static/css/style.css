@@ -1,0 +1,63 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    font-family: Helvetica;
+
+  }
+
+ 
+  #tree{
+    width:100%;
+    height:100%;
+  }
+  
+  #myDiagramDiv{
+    width:100vw; 
+    height: 100vh; 
+    border: 1px solid black; 
+    background-color: lightgray;
+  }
+
+  .dropdown{
+    position: relative;
+    display: none;
+    background-color: lightgray;
+  }
+
+  .dropdown.open{
+    display:block;
+    background-color: lightgray;
+  }
+
+  svg.hugo [data-n-id="3"].node>rect{
+    fill: orange;
+  }
+
+  .flashes{
+    list-style-type: none;
+    padding-left: 5vh;
+    margin: 0;
+  }
+
+
+
+
+
+/* Tablet style */ 
+
+
+
+
+/* mobile style */
+/*media only screen and (max-width: 720px){
+  #myDiagramDiv{
+    width: 1200px;
+    height: 841px;
+    overflow-x: auto;
+  }
+}
+*/
+

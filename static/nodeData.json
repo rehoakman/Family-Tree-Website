@@ -1,0 +1,416 @@
+{
+    "nodeDataArray": [
+        {
+            "dob": "06/4/1935",
+            "f": 3,
+            "key": 0,
+            "m": 2,
+            "n": "William Lee",
+            "pic": "static/pictures/grandpa.png",
+            "s": "M",
+            "ux": 1
+        },
+        {
+            "dob": "05/10/1940",
+            "key": 1,
+            "n": "May Yang",
+            "pic": "static/pictures/grandma.png",
+            "s": "F",
+            "vir": "0"
+        },
+        {
+            "dob": null,
+            "dod": null,
+            "key": 2,
+            "n": "Great grandmother",
+            "pic": "static/pictures/default.jpg",
+            "s": "F",
+            "vir": 3
+        },
+        {
+            "dob": null,
+            "dod": null,
+            "key": 3,
+            "n": "Great grandfather",
+            "pic": "static/pictures/default.jpg",
+            "s": "M",
+            "ux": 2
+        },
+        {
+            "key": 4,
+            "n": "Pa Lee",
+            "dob": "4/15/1971",
+            "dod": null,
+            "s": "F",
+            "vir": "5",
+            "m": 1,
+            "f": 0,
+            "pic": "static/pictures/Pa.png"
+        },
+        {
+            "key": 5,
+            "n": "Chue Yang",
+            "dob": "12/20/1971",
+            "dod": null,
+            "s": "M",
+            "ux": 4,
+            "pic": "static/pictures/Chue.png"
+        },
+        {
+            "key": 6,
+            "n": "Victoria Yang",
+            "dob": "1/20/1993",
+            "dod": null,
+            "s": "F",
+            "vir": 7,
+            "m": 4,
+            "f": 5,
+            "pic": "static/pictures/torie.png"
+        },
+        {
+            "key": 7,
+            "n": "Victor Dumenya",
+            "dob": "10/11/1992",
+            "dod": null,
+            "s": "M",
+            "ux": 6,
+            "pic": "static/pictures/victor.png"
+        },
+        {
+            "key": 8,
+            "n": "Theodore Kofi Hwjchim Dumenya",
+            "dob": "12/17/2021",
+            "dod": null,
+            "s": "M",
+            "m": 6,
+            "f": 7,
+            "pic": "static/pictures/theo.png"
+        },
+        {
+            "key": 9,
+            "n": "Vienna Pajtawgtshiab Awo Dumenya",
+            "dob": "6/01/2023",
+            "dod": null,
+            "s": "F",
+            "m": 6,
+            "f": 7,
+            "pic": "static/pictures/vienna.png",
+            "vir": 42
+        },
+        {
+            "key": 10,
+            "n": "May Pa Lee",
+            "dob": "8/18/1976",
+            "dod": null,
+            "s": "F",
+            "m": 1,
+            "f": 0,
+            "vir": 11,
+            "pic": "static/pictures/maypa.png"
+        },
+        {
+            "key": 11,
+            "n": "Kao Her",
+            "dob": "11/05/1975",
+            "dod": null,
+            "s": "M",
+            "ux": 10,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 12,
+            "n": "Vincent Kao Her",
+            "dob": "05/04/1995",
+            "dod": null,
+            "s": "M",
+            "m": 10,
+            "f": 11,
+            "pic": "static/pictures/vince2.png"
+        },
+        {
+            "key": 13,
+            "n": "Ryan Kongmeng Her",
+            "dob": "09/29/2000",
+            "dod": null,
+            "s": "M",
+            "m": 10,
+            "f": 11,
+            "pic": "static/pictures/ryan.png"
+        },
+        {
+            "key": 14,
+            "n": "May Bee Lee",
+            "dob": "5/20/1978",
+            "dod": null,
+            "s": "F",
+            "m": 1,
+            "f": 0,
+            "vir": 15,
+            "pic": "static/pictures/bee.png"
+        },
+        {
+            "key": 15,
+            "n": "Yeng Vang",
+            "dob": "5/05/1971",
+            "dod": null,
+            "s": "M",
+            "ux": 14,
+            "pic": "static/pictures/ray.png"
+        },
+        {
+            "key": 16,
+            "n": "Gabrielle Tshiabkhiv Vang",
+            "dob": "10/27/2001",
+            "dod": null,
+            "s": "F",
+            "m": 14,
+            "f": 15,
+            "pic": "static/pictures/gabby.png"
+        },
+        {
+            "key": 17,
+            "n": "Andrew Vaammeej Vang",
+            "dob": "06/22/2004",
+            "dod": null,
+            "s": "M",
+            "m": 14,
+            "f": 15,
+            "pic": "static/pictures/andrew.png"
+        },
+        {
+            "key": 18,
+            "n": "Ann Lee",
+            "dob": "5/16/1981",
+            "dod": null,
+            "s": "F",
+            "m": 1,
+            "f": 0,
+            "vir": 19,
+            "pic": "static/pictures/Ann.png"
+        },
+        {
+            "key": 19,
+            "n": "Thai Vang",
+            "dob": "11/14/1979",
+            "dod": null,
+            "s": "M",
+            "ux": 18,
+            "pic": "static/pictures/Thai.png"
+        },
+        {
+            "key": 20,
+            "n": "Ethan Zoosiab Vang",
+            "dob": "07/28/2000",
+            "dod": null,
+            "s": "M",
+            "m": 18,
+            "f": 19,
+            "pic": "static/pictures/ethan.png"
+        },
+        {
+            "key": 21,
+            "n": "Nicolas Pej Luam Vang",
+            "dob": "7/28/2000",
+            "dod": null,
+            "s": "M",
+            "m": 18,
+            "f": 19,
+            "pic": "static/pictures/nico.png"
+        },
+        {
+            "key": 22,
+            "n": "Cody Xyoojfab Vang",
+            "dob": "11/08/2005",
+            "dod": null,
+            "s": "M",
+            "m": 18,
+            "f": 19,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 23,
+            "n": "Yeej Huam Lis",
+            "dob": "03/30/1993",
+            "dod": null,
+            "s": "M",
+            "m": 1,
+            "f": 0,
+            "pic": "static/pictures/yeng.png"
+        },
+        {
+            "key": 24,
+            "n": "Toby Lee",
+            "dob": "10/03/1991",
+            "dod": null,
+            "s": "M",
+            "m": 1,
+            "f": 0,
+            "pic": "static/pictures/toby.png"
+        },
+        {
+            "key": 25,
+            "n": "Tshaj Meej Lis",
+            "dob": "04/20/1980",
+            "dod": null,
+            "s": "M",
+            "m": 1,
+            "f": 0,
+            "ux": 26,
+            "pic": "static/pictures/TM.png"
+            
+        },
+        {
+            "key": 26,
+            "n": "Cynthia Vang",
+            "dob": null,
+            "dod": null,
+            "s": "F",
+            "vir": 25,      
+            "pic": "static/pictures/cynthia.png",
+            "virf": 34
+        },
+        {
+            "key": 27,
+            "n": "Preston Ywjpheej Lee",
+            "dob": "12/05/1999",
+            "dod": null,
+            "s": "M",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/preston3.png"
+        },
+        {
+            "key": 28,
+            "n": "Brianna Ci Lee",
+            "dob": "11/05/2000",
+            "dod": null,
+            "s": "F",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/bri.png"
+        },
+        {
+            "key": 29,
+            "n": "Jocelyn Lee",
+            "dob": null,
+            "dod": null,
+            "s": "F",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 30,
+            "n": "Damien Yeeb Lee",
+            "dob": "02/17/2003",
+            "dod": null,
+            "s": "M",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/damien.png"
+        },
+        {
+            "key": 31,
+            "n": "Leonardo Kaj Ntug Lee",
+            "dob": "02/18/2004",
+            "dod": null,
+            "s": "M",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/leo.png"
+        },
+        {
+            "key": 32,
+            "n": "Leanna Paj Tshiab Lis",
+            "dob": "07/27/2005",
+            "dod": null,
+            "s": "F",
+            "m": 26,
+            "f": 25,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 33,
+            "n": "Kiera Ntxhee Yees Lis",
+            "dob": "09/04/2008",
+            "dod": null,
+            "s": "F",
+            "m": 26,
+            "f": 25,
+            "pic":"static/pictures/kiera.png"
+        },
+        {
+            "key": 34,
+            "n": "Chue Thao",
+            "dob": null,
+            "dod": null,
+            "s": "M",
+            "ux": 26,
+            "pic": "static/pictures/default.jpg",
+            "fx": 26
+        },
+        {
+            "key": 35,
+            "n": "Danny Txwj Koob Thao",
+            "dob": "06/10/1997",
+            "dod": null,
+            "s": "M",
+            "f": 34,
+            "m": 26,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 36,
+            "n": "Duran Thao",
+            "dob": null,
+            "dod": null,
+            "s": "M",
+            "m": 26,
+            "f": 34,
+            "ux": 37,
+            "fx": 37,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 37,
+            "n": "Christina Xiong",
+            "dob": null,
+            "dod": null,
+            "s": "F",
+            "vir": 36,
+            "virf": 36,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 38,
+            "n": "Casey Thao",
+            "dob": null,
+            "dod": null,
+            "s": "M",
+            "m": 37,
+            "f": 36,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 39,
+            "n": "Genevieve Thao",
+            "dob": null,
+            "dod": null,
+            "s": "F",
+            "m": 37,
+            "f": 36,
+            "pic": "static/pictures/default.jpg"
+        },
+        {
+            "key": 40,
+            "n": "Kehlani Thao",
+            "dob": null,
+            "dod": null,
+            "s": "F",
+            "m": 37,
+            "f": 36,
+            "pic": "static/pictures/default.jpg"
+        }
+        
+    ]
+}

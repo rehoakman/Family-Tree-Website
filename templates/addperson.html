@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Family Tree Visualization</title>
+  <style>
+    #family-tree {
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="family-tree"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/famulus@1.0.0/dist/famulus.js"></script>
+  <script>
+    // Create a Famulus FamilyTree instance
+    const tree = new Famulus.FamilyTree("family-tree");
+
+    // Define family members and relationships
+    const familyMembers = [
+      { id: 1, name: "John Doe", gender: "male", spouseId: 2 },
+      { id: 2, name: "Jane Doe", gender: "female", spouseId: 1 },
+      { id: 3, name: "Alice Doe", gender: "female", parentId: 1 },
+      { id: 4, name: "Bob Doe", gender: "male", parentId: 1 },
+      { id: 5, name: "Carol Doe", gender: "female", parentId: 2 },
+      { id: 6, name: "Dave Doe", gender: "male", parentId: 2 },
+    ];
+
+    // Add family members to the tree
+    familyMembers.forEach(member => {
+      const node = new Famulus.FamilyNode(member.id, member.name, member.gender);
+      tree.addNode(node);
+    });
+
+    // Create relationships between family members
+    familyMembers.forEach(member => {
+      if (member.spouseId) {
+        tree.addSpouse(member.id, member.spouseId);
+      }
+      if (member.parentId) {
+        tree.addParent(member.id, member.parentId);
+      }
+    });
+
+    // Render the family tree
+    tree.render();
+  </script>
+</body>
+</html>
