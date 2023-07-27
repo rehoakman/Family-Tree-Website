@@ -28,20 +28,20 @@ class User(UserMixin):
 
 
 
-
+#creating the instance
 app = Flask(__name__, static_folder='static')
 login_manager = LoginManager(app)
 load_dotenv("password.env")
 secret_key = os.environ.get('SECRET_KEY')
 app.secret_key = secret_key
-#remember to use environmental variable for secret key
-#app.secret_key = b'%akoFEKL035/a/5xe2'
+
+#logging in the user
 @login_manager.user_loader
 def load_user(user_id):
     return User.get_by_username(user_id)
 
 
-
+#route for adding to the tree
 @app.route('/login',methods=['POST'])
 def login():
     username= request.form['username']
@@ -99,11 +99,6 @@ def get_initial_data():
             return jsonify([])
 
 
-
-
-
-
-
 #route for adding a person when the button is clicked
 @app.route('/', methods=['POST','GET'])
 @login_required
@@ -146,19 +141,6 @@ def add_person():
        json.dump(existing_data, file, indent = 4)
        
    return jsonify(existing_data['nodeDataArray'])
-   
-   """
-   #checking if dod is provided AND its NOT an empty string
-   #it checks to see if the key exists and if its value is NOT empty
-   if 'death' in data and data['death']:
-    #for converting the string into date for mysql
-    #date is parsed only when the date string is given and NOT an empty string
-    dod_date_obj = datetime.strptime(dod, '%Y-%m-%d').date()
-    #if dod is not provided or is an empty string the datetime obj is set to none
-   else:
-      dod_date_obj = None
-   """
-
    
 
 if __name__== '__main__':

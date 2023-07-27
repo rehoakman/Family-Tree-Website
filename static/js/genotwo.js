@@ -334,89 +334,7 @@ class GenogramLayout extends go.LayeredDigraphLayout {
       ), // end node properties
     );
     
-
-
-      //need a function here that adds to the db like the addEmployee() example
-      function addPerson(){
-        if (nextFunctionExecute){
-          var newNodeKey = generateUniqueKey();
-          var fullName = prompt('Enter their name:');
-          var dob = prompt('Enter date of birth MM-DD-YYYY:');
-          var dod = prompt('Enter date of death if applicable MM-DD-YYYY: ');
-        
-
-        var newNode = {
-          key: newNodeKey,
-          n: fullName,
-          dob: dob,
-          dod: dod
-        }
-
-        console.log("End of addperson")
-        }
-        
-     }
-
-     var counter = 41; //initial key starting num
-     function generateUniqueKey(){
-        var key = counter;
-        counter++;
-        return key;
-     }
-
-
-     let nextFunctionExecute = false;
-
-
-     //function for parents
-     // e means its an event, obj will be the clicked node
-     function addFemale(e, obj){
-        var curNode = obj.part.data;
-        var newNodeKey = generateUniqueKey();
-        var fullName = prompt('Enter their name:');
-        var dob = prompt('Enter date of birth MM-DD-YYYY:');
-        var dod = prompt('Enter date of death if applicable MM-DD-YYYY: ');
-        var s = "F"
-      
-        // check if dob/dod has any value
-        if (!dod) {
-          dod = null;
-        }
-        
-        if (!dob){
-          dob = null;
-        }
-        var newNode = {
-          key: newNodeKey,
-          n: fullName,
-          dob: dob,
-          dod: dod,
-          s: s
-        }
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/", true);
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.onreadystatechange = function(){
-          if (xhr.readyState === 4 && xhr.status === 200){
-            var response = JSON.parse(xhr.responseText); //getting json info back
-            //convert it to an array here
-            console.log(response);
-            var updatedArray = response;
-
-        
-            setupDiagram(myDiagram, updatedArray);
-        }
-      };
-
-      
-      var jsonData = JSON.stringify(newNode)
-        
-      xhr.send(jsonData);
-      };
-
-
-     
-      
+    //start of female node template
     myDiagram.nodeTemplateMap.add("F",  // female
       $(go.Node, "Vertical",
         { locationSpot: go.Spot.Center, locationObjectName: "ICON",
@@ -462,8 +380,18 @@ class GenogramLayout extends go.LayeredDigraphLayout {
         
       )); //end template
 
-      
+     var counter = 41; //initial key starting num
+     function generateUniqueKey(){
+        var key = counter;
+        counter++;
+        return key;
+     }
 
+
+     
+     
+     
+     let nextFunctionExecute = false;
 
 
     // the representation of each label node -- nothing shows on a Marriage Link
@@ -514,6 +442,55 @@ class GenogramLayout extends go.LayeredDigraphLayout {
     
   
 }; //end of init
+
+  //function for parents
+     // e means its an event, obj will be the clicked node
+     function addFemale(e, obj){
+      var curNode = obj.part.data;
+      var newNodeKey = generateUniqueKey();
+      var fullName = prompt('Enter their name:');
+      var dob = prompt('Enter date of birth MM-DD-YYYY:');
+      var dod = prompt('Enter date of death if applicable MM-DD-YYYY: ');
+      var s = "F"
+    
+      // check if dob/dod has any value
+      if (!dod) {
+        dod = null;
+      }
+      
+      if (!dob){
+        dob = null;
+      }
+      var newNode = {
+        key: newNodeKey,
+        n: fullName,
+        dob: dob,
+        dod: dod,
+        s: s
+      }
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "/", true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.onreadystatechange = function(){
+        if (xhr.readyState === 4 && xhr.status === 200){
+          var response = JSON.parse(xhr.responseText); //getting json info back
+          //convert it to an array here
+          console.log(response);
+          var updatedArray = response;
+
+      
+          setupDiagram(myDiagram, updatedArray);
+      }
+    };
+
+    
+    var jsonData = JSON.stringify(newNode)
+      
+    xhr.send(jsonData);
+    };
+
+
+
 
   //function here to convert the flat file to a js array which will be called in setUpDiagram
   // this will also show the up to date array everytime the website loads
