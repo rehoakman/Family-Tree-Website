@@ -78,7 +78,7 @@
         },
         {
             "key": 8,
-            "n": "Theodore Kofi Hwjchim Dumenya",
+            "n": "Theodore Dumenya",
             "dob": "12/17/2021",
             "dod": null,
             "s": "M",
@@ -88,7 +88,7 @@
         },
         {
             "key": 9,
-            "n": "Vienna Pajtawgtshiab Awo Dumenya",
+            "n": "Vienna Dumenya",
             "dob": "6/01/2023",
             "dod": null,
             "s": "F",
@@ -119,7 +119,7 @@
         },
         {
             "key": 12,
-            "n": "Vincent Kao Her",
+            "n": "Vincent Her",
             "dob": "05/04/1995",
             "dod": null,
             "s": "M",
@@ -129,7 +129,7 @@
         },
         {
             "key": 13,
-            "n": "Ryan Kongmeng Her",
+            "n": "Ryan Her",
             "dob": "09/29/2000",
             "dod": null,
             "s": "M",
@@ -159,7 +159,7 @@
         },
         {
             "key": 16,
-            "n": "Gabrielle Tshiabkhiv Vang",
+            "n": "Gabrielle Vang",
             "dob": "10/27/2001",
             "dod": null,
             "s": "F",
@@ -169,7 +169,7 @@
         },
         {
             "key": 17,
-            "n": "Andrew Vaammeej Vang",
+            "n": "Andrew Vang",
             "dob": "06/22/2004",
             "dod": null,
             "s": "M",
@@ -199,7 +199,7 @@
         },
         {
             "key": 20,
-            "n": "Ethan Zoosiab Vang",
+            "n": "Ethan Vang",
             "dob": "07/28/2000",
             "dod": null,
             "s": "M",
@@ -209,7 +209,7 @@
         },
         {
             "key": 21,
-            "n": "Nicolas Pej Luam Vang",
+            "n": "Nicolas Vang",
             "dob": "10/29/2003",
             "dod": null,
             "s": "M",
@@ -219,7 +219,7 @@
         },
         {
             "key": 22,
-            "n": "Cody Xyoojfab Vang",
+            "n": "Cody Vang",
             "dob": "11/08/2005",
             "dod": null,
             "s": "M",
@@ -245,7 +245,7 @@
             "s": "M",
             "m": 1,
             "f": 0,
-            "pic": "static/pictures/toby.png"
+            "pic": "static/pictures/toby2.png"
         },
         {
             "key": 25,
@@ -271,7 +271,7 @@
         },
         {
             "key": 27,
-            "n": "Preston Ywjpheej Lee",
+            "n": "Preston Lee",
             "dob": "12/05/1999",
             "dod": null,
             "s": "M",
@@ -281,13 +281,13 @@
         },
         {
             "key": 28,
-            "n": "Brianna Ci Lee",
+            "n": "Brianna Lee",
             "dob": "11/05/2000",
             "dod": null,
             "s": "F",
             "m": 26,
             "f": 25,
-            "pic": "static/pictures/bri.png"
+            "pic": "static/pictures/bri2.png"
         },
         {
             "key": 29,
@@ -301,7 +301,7 @@
         },
         {
             "key": 30,
-            "n": "Damien Yeeb Lee",
+            "n": "Damien Lee",
             "dob": "02/17/2003",
             "dod": null,
             "s": "M",
@@ -311,7 +311,7 @@
         },
         {
             "key": 31,
-            "n": "Leonardo Kaj Ntug Lee",
+            "n": "Leonardo Lee",
             "dob": "02/18/2004",
             "dod": null,
             "s": "M",
@@ -321,17 +321,17 @@
         },
         {
             "key": 32,
-            "n": "Leanna Paj Tshiab Lis",
+            "n": "Leanna Lis",
             "dob": "07/27/2005",
             "dod": null,
             "s": "F",
             "m": 26,
             "f": 25,
-            "pic": "static/pictures/default.jpg"
+            "pic": "static/pictures/anna2.png"
         },
         {
             "key": 33,
-            "n": "Kiera Ntxhee Yees Lis",
+            "n": "Kiera Lis",
             "dob": "09/04/2008",
             "dod": null,
             "s": "F",
@@ -351,7 +351,7 @@
         },
         {
             "key": 35,
-            "n": "Danny Txwj Koob Thao",
+            "n": "Danny Thao",
             "dob": "06/10/1997",
             "dod": null,
             "s": "M",
