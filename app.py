@@ -51,7 +51,7 @@ def login():
     #check to see if form fields are empty or not
     if not username or not password:
         flash("Please enter information to log in")
-        return render_template("index.html")
+        return redirect(url_for('index'))
 
 
     #checking to see if usernames match
