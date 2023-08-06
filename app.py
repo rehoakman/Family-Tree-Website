@@ -81,6 +81,13 @@ def unauthorized(e):
     flash("You are not logged in")
     return redirect(url_for('index'))
 
+#display when user logs in with incorrect info
+@app.errorhandler(500)
+def incorrect_info(e):
+    flash("Incorrect username or password")
+    return redirect(url_for('index'))
+
+
 
 @app.route('/')
 def index():

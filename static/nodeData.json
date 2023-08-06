@@ -1,7 +1,7 @@
 {
     "nodeDataArray": [
         {
-            "dob": "06/4/1935",
+            
             "f": 3,
             "key": 0,
             "m": 2,
@@ -11,7 +11,7 @@
             "ux": 1
         },
         {
-            "dob": "05/10/1940",
+            
             "key": 1,
             "n": "May Yang",
             "pic": "static/pictures/grandma.png",
@@ -39,7 +39,7 @@
         {
             "key": 4,
             "n": "Pa Lee",
-            "dob": "4/15/1971",
+            
             "dod": null,
             "s": "F",
             "vir": "5",
@@ -50,7 +50,7 @@
         {
             "key": 5,
             "n": "Chue Yang",
-            "dob": "12/20/1971",
+            
             "dod": null,
             "s": "M",
             "ux": 4,
@@ -59,7 +59,7 @@
         {
             "key": 6,
             "n": "Victoria Yang",
-            "dob": "1/20/1993",
+            
             "dod": null,
             "s": "F",
             "vir": 7,
@@ -70,7 +70,7 @@
         {
             "key": 7,
             "n": "Victor Dumenya",
-            "dob": "10/11/1992",
+            
             "dod": null,
             "s": "M",
             "ux": 6,
@@ -79,7 +79,7 @@
         {
             "key": 8,
             "n": "Theodore Dumenya",
-            "dob": "12/17/2021",
+            
             "dod": null,
             "s": "M",
             "m": 6,
@@ -89,7 +89,7 @@
         {
             "key": 9,
             "n": "Vienna Dumenya",
-            "dob": "6/01/2023",
+            
             "dod": null,
             "s": "F",
             "m": 6,
@@ -100,7 +100,7 @@
         {
             "key": 10,
             "n": "May Pa Lee",
-            "dob": "8/18/1976",
+            
             "dod": null,
             "s": "F",
             "m": 1,
@@ -111,7 +111,7 @@
         {
             "key": 11,
             "n": "Kao Her",
-            "dob": "11/05/1975",
+            
             "dod": null,
             "s": "M",
             "ux": 10,
@@ -120,7 +120,7 @@
         {
             "key": 12,
             "n": "Vincent Her",
-            "dob": "05/04/1995",
+            
             "dod": null,
             "s": "M",
             "m": 10,
@@ -130,7 +130,7 @@
         {
             "key": 13,
             "n": "Ryan Her",
-            "dob": "09/29/2000",
+            
             "dod": null,
             "s": "M",
             "m": 10,
@@ -140,7 +140,7 @@
         {
             "key": 14,
             "n": "May Bee Lee",
-            "dob": "5/20/1978",
+            
             "dod": null,
             "s": "F",
             "m": 1,
@@ -151,7 +151,7 @@
         {
             "key": 15,
             "n": "Yeng Vang",
-            "dob": "5/05/1971",
+            
             "dod": null,
             "s": "M",
             "ux": 14,
@@ -160,7 +160,7 @@
         {
             "key": 16,
             "n": "Gabrielle Vang",
-            "dob": "10/27/2001",
+            
             "dod": null,
             "s": "F",
             "m": 14,
@@ -170,7 +170,7 @@
         {
             "key": 17,
             "n": "Andrew Vang",
-            "dob": "06/22/2004",
+            
             "dod": null,
             "s": "M",
             "m": 14,
@@ -180,7 +180,7 @@
         {
             "key": 18,
             "n": "Ann Lee",
-            "dob": "5/16/1981",
+            
             "dod": null,
             "s": "F",
             "m": 1,
@@ -191,7 +191,7 @@
         {
             "key": 19,
             "n": "Thai Vang",
-            "dob": "11/14/1979",
+            
             "dod": null,
             "s": "M",
             "ux": 18,
@@ -200,7 +200,7 @@
         {
             "key": 20,
             "n": "Ethan Vang",
-            "dob": "07/28/2000",
+            
             "dod": null,
             "s": "M",
             "m": 18,
@@ -210,7 +210,7 @@
         {
             "key": 21,
             "n": "Nicolas Vang",
-            "dob": "10/29/2003",
+            
             "dod": null,
             "s": "M",
             "m": 18,
@@ -220,7 +220,7 @@
         {
             "key": 22,
             "n": "Cody Vang",
-            "dob": "11/08/2005",
+            
             "dod": null,
             "s": "M",
             "m": 18,
@@ -230,7 +230,7 @@
         {
             "key": 23,
             "n": "Yeej Huam Lis",
-            "dob": "03/30/1993",
+            
             "dod": null,
             "s": "M",
             "m": 1,
@@ -240,7 +240,7 @@
         {
             "key": 24,
             "n": "Toby Lee",
-            "dob": "10/03/1991",
+            
             "dod": null,
             "s": "M",
             "m": 1,
@@ -250,7 +250,7 @@
         {
             "key": 25,
             "n": "Tshaj Meej Lis",
-            "dob": "04/20/1980",
+            
             "dod": null,
             "s": "M",
             "m": 1,
@@ -272,7 +272,7 @@
         {
             "key": 27,
             "n": "Preston Lee",
-            "dob": "12/05/1999",
+            
             "dod": null,
             "s": "M",
             "m": 26,
@@ -282,7 +282,7 @@
         {
             "key": 28,
             "n": "Brianna Lee",
-            "dob": "11/05/2000",
+            
             "dod": null,
             "s": "F",
             "m": 26,
@@ -302,7 +302,7 @@
         {
             "key": 30,
             "n": "Damien Lee",
-            "dob": "02/17/2003",
+            
             "dod": null,
             "s": "M",
             "m": 26,
@@ -312,7 +312,7 @@
         {
             "key": 31,
             "n": "Leonardo Lee",
-            "dob": "02/18/2004",
+            
             "dod": null,
             "s": "M",
             "m": 26,
@@ -322,7 +322,7 @@
         {
             "key": 32,
             "n": "Leanna Lis",
-            "dob": "07/27/2005",
+            
             "dod": null,
             "s": "F",
             "m": 26,
@@ -332,7 +332,7 @@
         {
             "key": 33,
             "n": "Kiera Lis",
-            "dob": "09/04/2008",
+            
             "dod": null,
             "s": "F",
             "m": 26,
@@ -352,7 +352,7 @@
         {
             "key": 35,
             "n": "Danny Thao",
-            "dob": "06/10/1997",
+            
             "dod": null,
             "s": "M",
             "f": 34,
